@@ -16,16 +16,6 @@
 						"internalType": "address",
 						"name": "busd_address",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "sale_start_epoch",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "sale_end_epoch",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -75,6 +65,11 @@
 						"internalType": "address",
 						"name": "account",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
 				"name": "addToWhitelisted",
@@ -187,6 +182,39 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_sale_start",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sale_end",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_min_contribution",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_max_contribution",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_remaining_tokens",
+						"type": "uint256"
+					}
+				],
+				"name": "setSaleDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "tokens_perbusd",
 				"outputs": [
@@ -263,11 +291,11 @@
 			]
 		},
 		"contracts/BuyTestToken.sol": {
-			"keccak256": "0xf8c4c50bc25f938adcdbc46d604d8b043a48ec1348c2999ab1ccb2f4c962301d",
+			"keccak256": "0x46b730759b4e7801a66d54dc0c637dbf8d92fac1dbae1d8919ceff11abf0caac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://61bbdd688ec797c1961e740751fedd4d1f84c4059be0dccb36312187ee28eeb2",
-				"dweb:/ipfs/QmQFnFSsABbUJsqPq3sVxnA6R2HFskcuu8WraygAKzpZGg"
+				"bzz-raw://cf36e4d26a1f1526019399e891248d60c6d99ecea6f811697b8832721a297219",
+				"dweb:/ipfs/QmRNsb86mm4tEZH2kpzbxAGQPf6oi5eeaEgLT2dVF3nwZ8"
 			]
 		}
 	},
