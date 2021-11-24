@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
+		"version": "0.8.10+commit.fc410830"
 	},
 	"language": "Solidity",
 	"output": {
@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BuyTestToken.sol": "TestToken"
+			"contracts/BuyTokens.sol": "ERC20Token"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -80,12 +80,12 @@
 				"dweb:/ipfs/QmWcsmkVr24xmmjfnBQZoemFniXjj3vwT78Cz6uqZW1Hux"
 			]
 		},
-		"contracts/BuyTestToken.sol": {
-			"keccak256": "0x46b730759b4e7801a66d54dc0c637dbf8d92fac1dbae1d8919ceff11abf0caac",
+		"contracts/BuyTokens.sol": {
+			"keccak256": "0x3c4d32350845c81e632c03a99eeeda243cef1b9b477e1180006473d7c05002ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cf36e4d26a1f1526019399e891248d60c6d99ecea6f811697b8832721a297219",
-				"dweb:/ipfs/QmRNsb86mm4tEZH2kpzbxAGQPf6oi5eeaEgLT2dVF3nwZ8"
+				"bzz-raw://171b067ca6d758898c59ed5fe7d6e749d53cec679e35e9081f3112f87230f12d",
+				"dweb:/ipfs/QmU8suNTyzhTnaBUVEsiQiGkBrcpEaZXGcbFMfnByaNwgF"
 			]
 		}
 	},
